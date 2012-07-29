@@ -1,0 +1,4 @@
+== binyo
+
+Fast binary IO for Ruby. 
+

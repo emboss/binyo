@@ -1,0 +1,17 @@
+.bundle
+mkmf.log
+extconf.h
+Makefile
+coverage
+binyo.info
+tmp
+profile
+ext/binyo/doc
+*.swp
+*.swo
+*~
+*.so
+*.o
+.rbx/
+.idea/
+nbproject
