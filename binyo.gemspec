@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = '0.0.1'
   s.author = 'Martin Bosslet'
   s.email = 'Martin.Bosslet@googlemail.com'
-  s.homepage = 'https://github.com/emboss/binyo'
+  s.homepage = 'https://github.com/krypt/binyo'
   s.summary = 'Binary IO for C-based Rubies'
   s.extensions << 'ext/binyo/extconf.rb'
   s.files = %w(LICENSE) + Dir.glob('{bin,ext,lib,spec,test}/**/*')
