@@ -13,8 +13,6 @@
 
 void binyo_error_add(const char *format, ...);
 
-int binyo_has_errors(void);
-int binyo_error_message(char *buf, int buf_len);
 VALUE binyo_error_create(VALUE exception_class, const char *format, ...);
 void binyo_error_raise(VALUE exception_class, const char *format, ...);
 void binyo_error_clear(void);

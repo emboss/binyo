@@ -26,7 +26,6 @@ extern "C" {
 #include <ruby/io.h>
 #endif
 
-
 /* memory utilities */
 #define BINYO_ALLOC(type) ((type *)binyo_alloc(sizeof(type)))
 #define BINYO_ALLOC_N(type, n) ((type *)binyo_alloc_n((n), sizeof(type)))
